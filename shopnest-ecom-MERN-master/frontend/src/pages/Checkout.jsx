@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 import { clearCart } from '../redux/cartSlice';
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+import API_URL from "../config/api";
 
 
 

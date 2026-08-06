@@ -2,7 +2,8 @@ import React, { useState, useContext } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 import '../styles/auth.css';
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+import API_URL from "../config/api";
+
 
 
 const Login = () => {
