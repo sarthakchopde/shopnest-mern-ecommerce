@@ -26,7 +26,7 @@ const Checkout = () => {
 
   const handlePayment = async () => {
     try {
-      const orderRes = await fetch('${API_URL}/api/payment/order', {
+      const orderRes = await fetch(`${API_URL}/api/payment/order`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
